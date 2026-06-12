@@ -1,3 +1,4 @@
+// Sum and Product of minimum and maximum element of an Array
 function MaxMin(arr){
     let min=+Infinity;
     let max=-Infinity;
@@ -12,6 +13,6 @@ function MaxMin(arr){
     let product=0;
     sum=max+min;
     product=max*min
-    return {max,min,sum,product}
+    return {sum,product}
 }
 console.log(MaxMin([-5, -1, -2, -9, -7]));

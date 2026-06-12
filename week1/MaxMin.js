@@ -1,3 +1,4 @@
+//Program to find the minimum (or maximum) element of an array
 function MaxMin(arr){
     let min=+Infinity;
     let max=-Infinity;
